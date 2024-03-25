@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #fafafa;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.Dropdown-arrow {
+  margin-top: 0.5rem;
+}
+.custom-shadow {
+  box-shadow: 1px 0px 1px 3px #e9e5e5ab;
+  -webkit-box-shadow: 1px 0px 1px 3px #e9e5e5ab;
+  -moz-box-shadow: 1px 0px 1px 3x #e9e5e5ab;
+}
+/* .Dropdown-control {
+  border: none !important;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  height: 50px;
+  padding-top: 0.7rem;
+  background: #2b3743;
+  color: white;
+}
+
+.Dropdown-option,
+.Dropdown-option:hover {
+  background: #202d36;
+  color: white;
+}
+.Dropdown-option.is-selected {
+  background: #2b3743;
+  color: white;
+}
+.dark-theme {
+  background: #2b3743;
+} */
+
+.dropdown-light-theme {
+  background-color: white;
+  color: black;
+}
+
+.dropdown-dark-theme {
+  background-color: #2b3743;
+  color: white;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+  width: 50px;
+  aspect-ratio: 1;
+  display: grid;
+  animation: l14 4s infinite;
+}
+.loader::before,
+.loader::after {
+  content: "";
+  grid-area: 1/1;
+  border: 8px solid;
+  border-radius: 50%;
+  border-color: red red #0000 #0000;
+  mix-blend-mode: darken;
+  animation: l14 1s infinite linear;
+}
+.loader::after {
+  border-color: #0000 #0000 blue blue;
+  animation-direction: reverse;
+}
+@keyframes l14 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
