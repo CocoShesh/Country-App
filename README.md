@@ -1,6 +1,6 @@
 <h1> REST Countries API Explorer </h1>
 
-(https://github.com/CocoShesh/Country-App/assets/110368170/5030d116-361a-4526-84f4-485fe2c3993d)
+https://github.com/CocoShesh/Country-App/assets/110368170/5030d116-361a-4526-84f4-485fe2c3993d
 
 ## Introduction
 
