@@ -1,6 +1,6 @@
 <h1> REST Countries API Explorer </h1>
 
-![Design preview for the REST Countries API with color theme switcher coding challenge](./design/desktop-preview.jpg)
+(https://github.com/CocoShesh/Country-App/assets/110368170/5030d116-361a-4526-84f4-485fe2c3993d)
 
 ## Introduction
 
